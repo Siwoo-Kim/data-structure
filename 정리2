@@ -22,50 +22,59 @@ LinkedList
         - return current head.
 
     DoubleLinkedList
-        * Have a head node and a tail node.
-        * Work with the head and the tail is constant time complexity.
-        * Each node in the list points to the next node and the previous node in the list.
+        * List contains reference of the head and the tail node.
+        * Each node in the list points to the next node and previous node.
+        * Work with the head and the tail is O(1) constant time complexity.
 
         Insert operation (head)
         * O(1) time complexity.
-        - Create new node.
-        - Assign current head to new node's next node.
-        - Assign current head (null) is pointing to as previous to new node's previous field.
-        - Assign new node to current head's previous node.
+        - Create new node. (*)
+        - Assign current head to new node's next node. (*)
+        - Assign current head's previous node (null) to new node's previous field. (!)
+        - Assign new node to current head's previous field. (!)
         - Assign head to new node.
 
         Insert operation(tail)
         * O(1) time complexity.
-        - Create new node.
-        - Assign current tail's next filed(null) to new node's next field(null).
-        - Assign current tail to new node's previous field.
-        - Assign current tail's next field to new node.
+        - Create new node. (*)
+        - Assign current tail's next filed(null) to new node's next field. (*)
+        - Assign current tail to new node's previous field. (!)
+        - Assign current tail's next field to new node. (!)
         - Assign tail to new node.
 
         Delete operation(head)
         * O(1) time complexity.
-        - Assign current head at a temporary variable.
-        - Assign next node's previous filed of the current head previous field(null).
-        - Assign head to next node of the current head.
-        - return the temporary variable.
+        - Assign the current head at a temporary variable. (*)
+        - Assign the current head's previous field to the previous field of head's next node. (!)
+        - Assign head to the current head's next node. (*)
+        - return the temporary variable. (*)
 
         Delete operation(tail)
         * O(1) time complexity.
-        - Assign current tail at a temporary variable.
-        - Assign previous node's next field of the current tail to current tail's next field.
-        - Assign tail to current tail's previous field.
+        - Assign tail at a temporary variable.
+        - Assign tail's next field to the previous node's next field.
+        - Assign tail to tail's previous field.
         - return the temporary variable.
 
-
 Stack
-    Abstract Data Type.
-    * O(1) for push, pop, and peek, when using a linked list.
+    * Abstract Data Type. (a deck of the cards, a stack of papers)
+    * LIFO - Last In, First Out (Work with head or top)
+    * Example of stack: Call Stack.
+    * O(1) for push(add), pop(remove), and peek(get without removing), when using a linked list.
     * O(n) for push, because the array may have to be resized.(Worst case)
     * If you know the maximum number of items that will be on the stack, an array is a good choice.
     * If memory is tight, array is a good choice.
     * Generally, LinkedList is ideal.
-    LIFO - Last In, First Out
+
     push - adds an items as the top item on the stack.
     pop - removes the top item on the stack.
     peek - gets the top item on the stack without popping it.
     Ideal backing data structure: Linked list (Operation with head node)
+    JDK Stack - ArrayDeque, LinkedList
+
+Queue
+    * Abstract Data Type. (Line up)
+    * FIFO - First In, First Out
+    * add(enqueue), remove(dequeue), peek.
+    * If backing up with array, add will be O(n).
+

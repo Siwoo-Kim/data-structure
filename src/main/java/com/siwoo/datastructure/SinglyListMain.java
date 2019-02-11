@@ -21,9 +21,9 @@ public class SinglyListMain {
         list.add(marrySmith);
         list.add(mikeWilson);
         list.print();
-
         assertEquals(list.size(), 4);
         assertFalse(list.isEmpty());
+
         list.remove();
         assertEquals(list.size(), 3);
         list.remove();

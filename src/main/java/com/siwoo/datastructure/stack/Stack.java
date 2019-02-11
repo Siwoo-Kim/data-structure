@@ -1,5 +1,7 @@
 package com.siwoo.datastructure.stack;
 
+import java.util.List;
+
 /**
  * Created by sm123tt@gmail.com on 2019-02-09
  * Project : data-structure
@@ -16,6 +18,8 @@ public interface Stack<T> {
     int size();
 
     void print();
+
+    List<T> toList();
 
     boolean isEmpty();
 }

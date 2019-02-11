@@ -3,6 +3,8 @@ package com.siwoo.datastructure;
 import com.siwoo.datastructure.practice.ArrayStack;
 import com.siwoo.datastructure.stack.Stack;
 
+import java.util.List;
+
 import static org.junit.Assert.assertEquals;
 
 public class StackMain {
@@ -19,15 +21,21 @@ public class StackMain {
         stack.push(mikeWilson);
         Employee billEnd = new Employee(5, "Bill", "End");
         stack.push(billEnd);
-        assertEquals(stack.size(), 5);
+
+        List<Employee> copied = stack.toList();
+        for (Employee emp: copied)
+            stack.push(emp);
+
+        for (Employee emp: copied)
+            stack.push(emp);
+
         stack.print();
         System.out.println(stack.peek());
         assertEquals(stack.peek(), billEnd);
-        assertEquals(stack.size(), 5);
+        assertEquals(stack.size(), 5 * 3);
         assertEquals(stack.pop(), billEnd);
-        assertEquals(stack.size(), 4);
+        assertEquals(stack.size(), 5 * 3 - 1);
         assertEquals(stack.pop(), mikeWilson);
-        assertEquals(stack.size(), 3);
-
+        assertEquals(stack.size(), 5 * 3 - 2);
     }
 }

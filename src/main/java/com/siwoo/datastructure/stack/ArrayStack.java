@@ -2,7 +2,9 @@ package com.siwoo.datastructure.stack;
 
 import com.siwoo.datastructure.Employee;
 
-import java.util.EmptyStackException;
+import java.util.*;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class ArrayStack<T> implements Stack<T> {
 
@@ -48,6 +50,12 @@ public class ArrayStack<T> implements Stack<T> {
     public void print() {
         for (int i = top - 1; i >= 0; i--)
             System.out.println(stack[i]);
+    }
+
+    @Override
+    public List<T> toList() {
+        return isEmpty() ? Collections.emptyList() :
+                Stream.of(stack).filter(Objects::nonNull).collect(Collectors.toList());
     }
 
     @Override
