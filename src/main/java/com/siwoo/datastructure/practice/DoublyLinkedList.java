@@ -1,23 +1,20 @@
 package com.siwoo.datastructure.practice;
 
+import com.siwoo.datastructure.Employee;
 import com.siwoo.datastructure.list.Dequeue;
-import sun.dc.pr.PRError;
-
-import java.util.Deque;
 
 public class DoublyLinkedList<T> implements Dequeue<T> {
-
     private Node<T> head;
     private Node<T> tail;
-    private int size;
+    private int size = 0;
 
     @Override
     public void addFirst(T data) {
-        Node node = new Node(data);
+        Node<T> node = new Node<>(data);
+        node.setNext(head);
         if (isEmpty())
             tail = node;
         else {
-            node.setNext(head);
             head.setPrevious(node);
         }
         head = node;
@@ -26,11 +23,11 @@ public class DoublyLinkedList<T> implements Dequeue<T> {
 
     @Override
     public void addLast(T data) {
-        Node node = new Node(data);
+        Node<T> node = new Node<>(data);
+        node.setPrevious(tail);
         if (isEmpty())
-            head = node;
+            head = tail;
         else {
-            node.setPrevious(tail);
             tail.setNext(node);
         }
         tail = node;
@@ -39,10 +36,12 @@ public class DoublyLinkedList<T> implements Dequeue<T> {
 
     @Override
     public void print() {
-        Node current = head;
-        while (current != null) {
-            System.out.print(current + " ");
-            current = current.getNext();
+        Node node = head;
+        while (node != null) {
+            System.out.print(node);
+            if (node.getNext() != null)
+                System.out.print(", ");
+            node = node.getNext();
         }
         System.out.println();
     }
@@ -72,8 +71,8 @@ public class DoublyLinkedList<T> implements Dequeue<T> {
         else
             tail.getPrevious().setNext(null);
         tail = removed.getPrevious();
-        removed.setPrevious(null);
         size--;
+        removed.setPrevious(null);
         return removed.getData();
     }
 

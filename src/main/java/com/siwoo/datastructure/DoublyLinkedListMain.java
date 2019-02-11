@@ -2,8 +2,6 @@ package com.siwoo.datastructure;
 
 import com.siwoo.datastructure.practice.DoublyLinkedList;
 
-import java.util.Deque;
-
 import static org.junit.Assert.*;
 
 
@@ -35,17 +33,14 @@ public class DoublyLinkedListMain {
         assertEquals(removed.getId(), billEnd.getId());
         assertEquals(list.size(), 3);
         list.print();
-
         removed = list.removeLast();
         assertEquals(removed.getId(), janeJones.getId());
         assertEquals(list.size(), 2);
         list.print();
-
         removed = list.removeLast();
         assertEquals(removed.getId(), johnDoe.getId());
         assertEquals(list.size(), 1);
         list.print();
-
         removed = list.removeLast();
         assertEquals(removed.getId(), marrySmith.getId());
         assertTrue(list.isEmpty());
