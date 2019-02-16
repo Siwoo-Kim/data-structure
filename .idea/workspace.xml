@@ -2,55 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="245c2d3f-4a9e-4868-9ed4-5094a36c5f4c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gradle/4.8/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/vcsWorkingDirs/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/com/siwoo/datastructure/DoublyLinkedListMain.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/com/siwoo/datastructure/Employee.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/com/siwoo/datastructure/QueueMain.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/com/siwoo/datastructure/SinglyListMain.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/com/siwoo/datastructure/SortMain.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/com/siwoo/datastructure/StackMain.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/com/siwoo/datastructure/list/Dequeue.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/com/siwoo/datastructure/list/DoublyLinkedList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/com/siwoo/datastructure/list/Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/com/siwoo/datastructure/list/SinglyLinkedList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/com/siwoo/datastructure/practice/ArrayQueue.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/com/siwoo/datastructure/practice/ArrayStack.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/com/siwoo/datastructure/practice/BubbleSort.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/com/siwoo/datastructure/practice/DoublyLinkedList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/com/siwoo/datastructure/practice/Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/com/siwoo/datastructure/practice/SinglyLinkedList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/com/siwoo/datastructure/queue/ArrayQueue.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/com/siwoo/datastructure/queue/Queue.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/com/siwoo/datastructure/sort/BubbleSort.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/com/siwoo/datastructure/sort/SelectionSort.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/com/siwoo/datastructure/stack/ArrayStack.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/com/siwoo/datastructure/stack/Stack.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/QueueMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/SortMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/practice/ArrayQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/practice/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/queue/ArrayQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/queue/Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/sort/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/sort/SelectionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/DoublyLinkedListMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/DoublyLinkedListMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/SinglyListMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/SinglyListMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/StackMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/StackMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/practice/ArrayStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/practice/ArrayStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/practice/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/practice/DoublyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/practice/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/practice/SinglyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/stack/ArrayStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/stack/ArrayStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/stack/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/stack/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/practice/BubbleSorter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/practice/InsertionSorter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/practice/MergeSorter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/practice/SelectionSorter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/practice/ShellSorter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/sort/MergeSorter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/siwoo/datastructure/SorterMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/siwoo/datastructure/SorterMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/SorterMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/SorterMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/sort/ShellSorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/sort/ShellSorter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/정리2" beforeDir="false" afterPath="$PROJECT_DIR$/정리2" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -71,42 +32,44 @@
     <session id="-1550435409">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.24" value="2" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
           <entry key="gradle" value="1" />
-          <entry key="java" value="54" />
-          <entry key="정리2" value="2" />
+          <entry key="java" value="82" />
+          <entry key="정리2" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
           <entry key="Groovy" value="1" />
-          <entry key="JAVA" value="54" />
-          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="JAVA" value="82" />
+          <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="dummy" value="2" />
           <entry key="gradle" value="11" />
-          <entry key="java" value="9474" />
+          <entry key="java" value="15703" />
           <entry key="txt" value="53" />
-          <entry key="정리2" value="3867" />
+          <entry key="정리2" value="7610" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="11" />
-          <entry key="JAVA" value="9474" />
-          <entry key="PLAIN_TEXT" value="3920" />
+          <entry key="JAVA" value="15703" />
+          <entry key="PLAIN_TEXT" value="7665" />
         </counts>
       </usages-collector>
     </session>
@@ -116,71 +79,68 @@
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/stack/ArrayStack.java">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/sort/Sorter.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="380">
-                  <caret line="57" column="87" selection-start-line="57" selection-start-column="87" selection-end-line="57" selection-end-column="87" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
+                <state relative-caret-position="72">
+                  <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/queue/ArrayQueue.java">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/practice/BubbleSorter.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="342">
-                  <caret line="25" selection-start-line="25" selection-end-line="25" />
-                  <folding>
-                    <element signature="e#245#246#0" expanded="true" />
-                    <element signature="e#295#296#0" expanded="true" />
-                    <element signature="e#338#339#0" expanded="true" />
-                    <element signature="e#372#373#0" expanded="true" />
-                    <element signature="e#1622#1623#0" expanded="true" />
-                    <element signature="e#1656#1657#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="144">
+                  <caret line="8" column="72" selection-start-line="8" selection-start-column="72" selection-end-line="8" selection-end-column="72" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/practice/ArrayQueue.java">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/practice/SelectionSorter.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="126">
+                  <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/practice/InsertionSorter.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="234">
+                  <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/practice/ShellSorter.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="324">
-                  <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#293#294#0" expanded="true" />
-                    <element signature="e#348#349#0" expanded="true" />
-                    <element signature="e#391#392#0" expanded="true" />
-                    <element signature="e#418#419#0" expanded="true" />
-                    <element signature="e#984#985#0" expanded="true" />
-                    <element signature="e#1018#1019#0" expanded="true" />
-                    <element signature="e#1057#1058#0" expanded="true" />
-                    <element signature="e#1092#1093#0" expanded="true" />
-                  </folding>
+                  <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/QueueMain.java">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/practice/MergeSorter.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="272">
-                  <caret line="75" column="23" lean-forward="true" selection-start-line="75" selection-start-column="23" selection-end-line="75" selection-end-column="23" />
+                <state relative-caret-position="500">
+                  <caret line="33" column="50" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
                   <folding>
-                    <element signature="imports" expanded="true" />
+                    <element signature="e#204#205#0" expanded="true" />
+                    <element signature="e#222#223#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/queue/Queue.java">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/SorterMain.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="108">
-                  <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+                <state relative-caret-position="306">
+                  <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
                 </state>
               </provider>
             </entry>
@@ -190,17 +150,12 @@
       <split-second>
         <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/queue/ArrayQueue.java">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/SorterMain.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="461">
-                  <caret line="59" column="21" lean-forward="true" selection-start-line="59" selection-start-column="21" selection-end-line="61" selection-end-column="47" />
+                <state relative-caret-position="158">
+                  <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
                   <folding>
-                    <element signature="e#245#246#0" expanded="true" />
-                    <element signature="e#295#296#0" expanded="true" />
-                    <element signature="e#338#339#0" expanded="true" />
-                    <element signature="e#372#373#0" expanded="true" />
-                    <element signature="e#1622#1623#0" expanded="true" />
-                    <element signature="e#1656#1657#0" expanded="true" />
+                    <element signature="imports" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -610,8 +565,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/list/Dequeue.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/list/DoublyLinkedList.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/sort/BubbleSort.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/practice/BubbleSort.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/SortMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/sort/SelectionSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/practice/SinglyLinkedList.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/SinglyListMain.java" />
@@ -619,12 +572,30 @@
         <option value="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/practice/DoublyLinkedList.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/stack/ArrayStack.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/StackMain.java" />
-        <option value="$PROJECT_DIR$/정리2" />
         <option value="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/practice/ArrayStack.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/queue/Queue.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/practice/ArrayQueue.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/queue/ArrayQueue.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/QueueMain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/sort/Sort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/practice/BubbleSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/SortMain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/sort/Sorter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/sort/BubbleSorter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/BubbleSortMain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/sort/SelectionSorter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/sort/InsertionSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/sort/InsertionSorter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/sort/ShellSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/sort/ShellSorter.java" />
+        <option value="$PROJECT_DIR$/정리2" />
+        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/sort/MergeSorter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/practice/BubbleSorter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/practice/SelectionSorter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/practice/InsertionSorter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/practice/ShellSorter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/SorterMain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/practice/MergeSorter.java" />
       </list>
     </option>
   </component>
@@ -652,6 +623,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -724,28 +696,6 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="siwoo" type="462c0819:PsiDirectoryNode" />
               <item name="datastructure" type="462c0819:PsiDirectoryNode" />
-              <item name="queue" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data-structure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data-structure" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="siwoo" type="462c0819:PsiDirectoryNode" />
-              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
-              <item name="sort" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data-structure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data-structure" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="siwoo" type="462c0819:PsiDirectoryNode" />
-              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
               <item name="stack" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -756,9 +706,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -766,7 +715,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549841461073" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550350123928" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -795,7 +744,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.QueueMain">
+  <component name="RunManager">
     <configuration name="DoublyLinkedListMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.siwoo.datastructure.DoublyLinkedListMain" />
       <module name="data-structure_main" />
@@ -835,8 +784,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.siwoo.datastructure.SortMain" />
+    <configuration name="SorterMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.siwoo.datastructure.SorterMain" />
       <module name="data-structure_main" />
       <extension name="coverage">
         <pattern>
@@ -865,16 +814,16 @@
       <item itemvalue="Application.SinglyListMain" />
       <item itemvalue="Application.DoublyLinkedListMain" />
       <item itemvalue="Application.StackMain" />
-      <item itemvalue="Application.SortMain" />
       <item itemvalue="Application.QueueMain" />
+      <item itemvalue="Application.SorterMain" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SorterMain" />
         <item itemvalue="Application.QueueMain" />
         <item itemvalue="Application.StackMain" />
         <item itemvalue="Application.DoublyLinkedListMain" />
         <item itemvalue="Application.SinglyListMain" />
-        <item itemvalue="Application.SortMain" />
       </list>
     </recent_temporary>
   </component>
@@ -891,6 +840,9 @@
       <workItem from="1549739183573" duration="13058000" />
       <workItem from="1549804002449" duration="210000" />
       <workItem from="1549831125454" duration="10340000" />
+      <workItem from="1550008983260" duration="17000" />
+      <workItem from="1550321755563" duration="132000" />
+      <workItem from="1550328356733" duration="16702000" />
     </task>
     <task id="LOCAL-00001" summary="AbstractDataType: List, Stack">
       <created>1549752621848</created>
@@ -903,12 +855,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23608000" />
+    <option name="totallyTimeSpent" value="40459000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1928" height="1088" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20788912" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21428572" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -920,15 +873,15 @@
       <window_info anchor="bottom" id="Build" order="0" weight="0.32952183" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32952183" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.35275754" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.39854318" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.35275754" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.40062433" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.458897" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.24453694" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32952183" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32882413" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="14" show_stripe_button="false" />
@@ -982,6 +935,18 @@
           <line>25</line>
           <properties />
           <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/sort/MergeSorter.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/sort/MergeSorter.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1073,37 +1038,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/sort/SelectionSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/SortMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/sort/BubbleSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/practice/BubbleSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="749">
@@ -1148,13 +1082,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/정리2">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="80" selection-start-line="80" selection-end-line="80" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/SinglyListMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -1169,10 +1096,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="44" column="11" selection-start-line="44" selection-start-column="11" selection-end-line="44" selection-end-column="11" />
-          <folding>
-            <element signature="e#776#777#0" expanded="true" />
-            <element signature="e#799#800#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1192,6 +1115,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/QueueMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/practice/ArrayQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/queue/ArrayQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="59" column="21" selection-start-line="59" selection-start-column="21" selection-end-line="61" selection-end-column="47" />
+          <folding>
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/stack/ArrayStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="57" column="87" selection-start-line="57" selection-start-column="87" selection-end-line="57" selection-end-column="87" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/queue/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/DoublyLinkedListMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -1204,70 +1181,151 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/StackMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
+        <state relative-caret-position="520">
           <caret line="37" column="46" lean-forward="true" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/stack/ArrayStack.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/sort/InsertionSorter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="57" column="87" selection-start-line="57" selection-start-column="87" selection-end-line="57" selection-end-column="87" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="162">
+          <caret line="9" column="61" lean-forward="true" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/practice/ArrayQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#293#294#0" expanded="true" />
-            <element signature="e#348#349#0" expanded="true" />
-            <element signature="e#391#392#0" expanded="true" />
-            <element signature="e#418#419#0" expanded="true" />
-            <element signature="e#984#985#0" expanded="true" />
-            <element signature="e#1018#1019#0" expanded="true" />
-            <element signature="e#1057#1058#0" expanded="true" />
-            <element signature="e#1092#1093#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/queue/Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/queue/ArrayQueue.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/sort/InsertionSorter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/sort/SelectionSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/SortMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="51" lean-forward="true" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
           <folding>
-            <element signature="e#245#246#0" expanded="true" />
-            <element signature="e#295#296#0" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
-            <element signature="e#1622#1623#0" expanded="true" />
-            <element signature="e#1656#1657#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/QueueMain.java">
+    <entry file="file://$PROJECT_DIR$/정리2">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="75" column="23" lean-forward="true" selection-start-line="75" selection-start-column="23" selection-end-line="75" selection-end-column="23" />
+        <state relative-caret-position="146">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/sort/MergeSorter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="33" column="44" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#160#161#0" expanded="true" />
+            <element signature="e#180#181#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/sort/InsertionSorter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/sort/BubbleSorter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/sort/ShellSorter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/sort/SelectionSorter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/practice/BubbleSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/sort/BubbleSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="59" lean-forward="true" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/sort/Sorter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/practice/BubbleSorter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="72" selection-start-line="8" selection-start-column="72" selection-end-line="8" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/practice/SelectionSorter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/practice/InsertionSorter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/SorterMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/practice/ShellSorter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/practice/MergeSorter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="33" column="50" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
+          <folding>
+            <element signature="e#204#205#0" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
           </folding>
         </state>
       </provider>

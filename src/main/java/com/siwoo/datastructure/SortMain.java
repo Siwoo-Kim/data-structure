@@ -1,6 +1,6 @@
 package com.siwoo.datastructure;
 
-import com.siwoo.datastructure.practice.BubbleSort;
+import com.siwoo.datastructure.sort.BubbleSort;
 
 import java.util.Arrays;
 

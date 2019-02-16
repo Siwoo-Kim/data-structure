@@ -1,3 +1,73 @@
+
+Time Complexity
+    To get sense of how the number of steps grows as the number of items you're dealing with. (Pick the worst case)
+    Normally each loop corresponds to N. one loop = Linear (N), two loop = Quadratic (N * N)
+
+Sort
+Stable and Unstable Sort.
+    When you have duplicated values in the items that you're dealing with if the original ordering is preserved then stable, otherwise unstable sort.
+
+Bubble Sort
+    * Stable Sort
+    * In-place algorithm.
+        In-place algorithm: If the extra memory that you need doesn't depend on the number of items you'are dealing with
+    * O(n^2) time complexity: quadratic
+
+    Bubble Sort partitions the array into a sorted partition and an unsorted partition (logical partitioning).
+    When i traverse (0 to unsorted partition index) the array if the element index i is greater then the element index i + 1, then swap elements.
+
+Selection Sort
+    * Unstable Sort.
+    * In-place algorithm.
+    * O(n^2) time complexity: quadratic.
+    * Doesn't require as much swapping as bubble sort (swap = n)
+
+    Selection Sort partitions the array into a sorted partition and an unsorted partition (logical partitioning).
+    When i traverse an array, look for the largest element in the unsorted partition.
+    After traverse the array, swap the last element in the unsorted partition with the largest element.
+
+Insertion Sort
+    * Stable algorithm.
+    * In-place algorithm.
+    * O(n^2) complexity - quadratic
+    Selection Sort partitions the array into a sorted partition and an unsorted partition (logical partitioning).
+    On each iteration, take the first element in the unsorted partition, insert into the sorted partition.
+    On traverse in the sorted partition, compare the value you're inserting with the values in the sorted partition.
+    On traverse in the sorted partition, look for a value that is a less than or equal to the value you're inserting and if found stop looking.
+    As looking for the correct insertion position, shift i with i + 1.
+
+Shell Sort
+    * Unstable algorithm.
+    * In-place algorithm.
+    * O(n^2) complexity - quadratic.
+
+    - Variation of Insertion Sort.
+    - Starts out using a larger gap value, compares elements that are farther apart from each other in the items.
+    - As the algorithm runs, the gap is reduced.
+    - The last gap value is always 1.
+    - When the gap value is 1, doing an insertion sort.
+    - Goal is to reduce the amount of shifting required. (almost linear time)
+
+Merge Sort
+    * Stable algorithm.
+    * Not In-place algorithm. (Use temporary array)
+    * O(n log n)
+
+    - Divide and conquer algorithm.
+    - Recursive algorithm.
+    - Two phases: splitting and merging.
+    - Splitting phase leads to faster soring during the merge phase (do logically).
+        Splitting Phase
+            - Divide the array into two arrays. (left array and right array)
+            - Keep splitting until all the arrays have only one element each.
+        Merging Phase.
+            - Merge every left/right pair of sibling arrays into a sorted array.
+            - Repeat until having a single sorted array.
+            - create a temporary array large enough to hold all the elements in the arrays.
+            - set i to the first index of the left, set j to the first index of the right array.
+            - If left is smaller, copy it to the temp array and increment i and vice versa.
+            - After temporary array back to the original input array.
+
 LinkedList
     SinglyLinkedList
         * Linked List differs from arrays in that, as long as you're adding, removing front of the list (Head Node) are constant time complexity.
