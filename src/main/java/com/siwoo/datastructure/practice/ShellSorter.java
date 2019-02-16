@@ -1,20 +1,19 @@
-package com.siwoo.datastructure.sort;
+package com.siwoo.datastructure.practice;
 
-public class ShellSorter<E extends Comparable> extends InsertionSorter<E>{
+import com.siwoo.datastructure.sort.Sorter;
 
+public class ShellSorter<E extends Comparable> implements Sorter<E> {
     @Override
     public void sort(E[] array) {
         for (int gap = array.length / 2; gap > 0; gap /= 2) {
             for (int unsorted = gap; unsorted < array.length; unsorted++) {
                 E el = array[unsorted];
                 int pos = unsorted;
-                while (pos >= gap && array[pos - gap].compareTo(el) > 0) {
+                for ( ;pos >= gap && el.compareTo(array[pos - gap]) < 0; pos -= gap) {
                     array[pos] = array[pos - gap];
-                    pos -= gap;
                 }
                 array[pos] = el;
             }
         }
     }
-
 }

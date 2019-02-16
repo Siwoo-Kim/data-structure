@@ -48,6 +48,26 @@ Shell Sort
     - When the gap value is 1, doing an insertion sort.
     - Goal is to reduce the amount of shifting required. (almost linear time)
 
+Merge Sort
+    * Stable algorithm.
+    * Not In-place algorithm. (Use temporary array)
+    * O(n log n)
+
+    - Divide and conquer algorithm.
+    - Recursive algorithm.
+    - Two phases: splitting and merging.
+    - Splitting phase leads to faster soring during the merge phase (do logically).
+        Splitting Phase
+            - Divide the array into two arrays. (left array and right array)
+            - Keep splitting until all the arrays have only one element each.
+        Merging Phase.
+            - Merge every left/right pair of sibling arrays into a sorted array.
+            - Repeat until having a single sorted array.
+            - create a temporary array large enough to hold all the elements in the arrays.
+            - set i to the first index of the left, set j to the first index of the right array.
+            - If left is smaller, copy it to the temp array and increment i and vice versa.
+            - After temporary array back to the original input array.
+
 LinkedList
     SinglyLinkedList
         * Linked List differs from arrays in that, as long as you're adding, removing front of the list (Head Node) are constant time complexity.
