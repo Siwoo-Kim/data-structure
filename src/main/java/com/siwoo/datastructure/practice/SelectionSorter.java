@@ -3,7 +3,6 @@ package com.siwoo.datastructure.practice;
 import com.siwoo.datastructure.sort.Sorter;
 
 public class SelectionSorter<E extends Comparable> implements Sorter<E> {
-
     @Override
     public void sort(E[] array) {
         for (int unsorted = array.length - 1; unsorted > 0; unsorted--) {
@@ -12,7 +11,7 @@ public class SelectionSorter<E extends Comparable> implements Sorter<E> {
                 if (array[i].compareTo(array[largest]) > 0)
                     largest = i;
             }
-            swap(array, largest, unsorted);
+            swap(array, unsorted, largest);
         }
     }
 }

@@ -68,6 +68,30 @@ Merge Sort
             - If left is smaller, copy it to the temp array and increment i and vice versa.
             - After temporary array back to the original input array.
 
+*Quick Sort
+    * Unstable algorithm.
+    * In-place algorithm.
+    * O(nlogn) - base 2.
+
+    - Divide and conquer algorithm.
+    - Recursive algorithm.
+    - Uses a pivot element to partition the array into two parts.
+    - * Elements < pivot to its left, elements > pivot to its right.
+    - * Pivot will then be in its correct sorted position but the left and right array are not sorted.
+    - traverse from start = i, from end = j together. when after sorting, increment i or j. check crossing i < j
+    - By alternating between going from right to left and left to right, can be sure that won't lose any value (alternative assignment).
+
+*Counting Sort
+    * Not In-place algorithm;
+    * O(n) (because making the assumptions about the data we're sorting)
+    * Unstable algorithm; to be stable, need to have extra steps.
+    - Makes assumptions about the data.
+    - Doesn't use comparisons.
+    - Only works with non-negative discrete values.
+    - Values must be within a specific range.
+
+
+
 LinkedList
     SinglyLinkedList
         * Linked List differs from arrays in that, as long as you're adding, removing front of the list (Head Node) are constant time complexity.
