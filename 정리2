@@ -90,7 +90,26 @@ Merge Sort
     - Only works with non-negative discrete values.
     - Values must be within a specific range.
 
+*Stable Counting Sort
+    - creating a temporary array that matches the length of the array we're sorting.
+    - Insert of the number of values in the count array, store how many values have a specific value or less. (누적값 summing up value of equal or less)
+    - Use these adjusted counts to write out the values in the correct order and preserve the relative positioning of values.
+    int[] tmp = new int[n];
+    for (int k = n - 1; k >= 0; k-- {   // traverse backward
+        tmp[--count[getDigit(position, input[k], index)]] = input[k];
+    }
+    - traverse the array from right to left, and write duplicate values into the temp array from right to left.
 
+
+*Radix Sort
+    * O(n) (because making the assumptions about the data we're sorting)
+    * In-place algorithm.
+    * Stable algorithm.
+    - Makes assumptions about the data.
+    - Data must have same radix(기수;Alphabet=26,10진법=10) and width.
+    - Data must be integers or strings.
+    - Sort based on each individual digit or letter position (start at the rightmost position:least weight)
+    - Must use a stable sort algorithm at each stage.
 
 LinkedList
     SinglyLinkedList
@@ -171,4 +190,66 @@ Queue
     * FIFO - First In, First Out
     * add(enqueue), remove(dequeue), peek.
     * If backing up with array, add will be O(n).
+
+Tree
+    * Hierarchical data structure.
+    * Every item in the tree is a node.
+    * The node at the top of the tree is the root.
+    * Every non-node has only one parent.
+    * A leaf node has no children.
+    * Nodes can have children.
+
+    Tree 의 Path
+        Edge (Path 을 구성하는 가장 작은 Unit)
+            * Every arrows which points to other node is called edge.
+        Path (Edge 의 모임)
+            * A path is the sequence of nodes required to go from one node to another.
+        Root Path
+            * A root path is the path from a node to the root.
+    Tree 의 깊이
+        Depth (node -> root 시 edge 의 갯수)
+            * The depth of node is the number of edges from the node to the root.
+        Height (node -> the farthest child 시 edge 의 개수)
+            * The height of node is the number of edges on the longest path from the node to a leaf.
+        Level
+            * A level of a tree contains all the nodes that are at the same depth.
+
+    Binary Tree
+        Every node has 0, 1 or 2 children.
+        Children are referred to as left child and right child.
+        In practice, use binary search trees(BST)
+
+        Complete Binary Tree.
+            If every level except the last level, is completely filled (One children is acceptable).
+        Full Binary Tree.
+            Binary Full tree is complete tree as well, but every node other than the leaves has to have two children.
+
+        * Binary Search Tree (BST)
+            Perform insertions, deletions, and retrievals in O(logn) time.
+            Left child always has a smaller value than its parent.
+            Right child always has a larger value than its parent.
+            Because of that, we can do a binary search.
+            To get minimum value in the tree just by following the left edges all the way down to the left.
+            To get maximum value in the tree just by following the right edges all the way down to the right.
+            * Root 의 왼쪽의 node 들은 모두 root 보다 작고(left subtrees), Root 의 오른쪽의 node 들은 모두 root 보다 크다(right substrees).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
