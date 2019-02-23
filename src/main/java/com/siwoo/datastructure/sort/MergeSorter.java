@@ -12,18 +12,22 @@ public class MergeSorter<E extends Comparable> implements Sorter<E> {
     private void mergeSort(E[] array, int start, int end) {
         if (end - start < 2) return;
         int mid = (start + end) / 2;
+        //ref: splitting phase
         mergeSort(array, start, mid);
         mergeSort(array, mid, end);
+        //ref: merging phase
         merge(array, start, mid, end);
     }
 
     private void merge(E[] array, int start, int mid, int end) {
+        //ref: last index of left array = mid - 1, start index of right array = mid
         if (array[mid - 1].compareTo(array[mid]) <= 0) return;
         Object[] tmp = new Object[end - start];
         int pos = 0;
         int i = start;
         int j = mid;
         while (i < mid && j < end) {
+            //ref: if the value of left and right equals, then left takes priority of insertion (stable)
             tmp[pos++] = array[i].compareTo(array[j]) <= 0 ? array[i++] : array[j++];
         }
         System.out.println(Arrays.toString(tmp));

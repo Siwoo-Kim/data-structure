@@ -1,45 +1,83 @@
 package com.siwoo.datastructure.list;
 
-public class SinglyLinkedList<T> {
+import java.util.NoSuchElementException;
 
-    private Node<T> head;
-    private int size;
+public class SinglyLinkedList<E> implements LinkedList<E> {
+    private Node<E> last;
+    private int size = 0;
 
-    public void add(T t) {
-        Node<T> node = new Node<>(t);
-        node.setNext(head);
-        head = node;
+    private static class Node<E> {
+        private E item;
+        private Node<E> prev;
+
+        public Node(E item, Node<E> prev) {
+            this.item = item;
+            this.prev = prev;
+        }
+    }
+
+    @Override
+    public void linkLast(E e) {
+        final Node<E> l = last;
+        Node<E> node = new Node<>(e, l);
+        last = node;
         size++;
     }
 
-    public T remove() {
+    @Override
+    public void linkFirst(E e) {
+        throw new UnsupportedOperationException();
+    }
+
+    @Override
+    public E getLast() {
         if (isEmpty())
-            return null;
-        Node<T> removed = head;
-        head = head.getNext();
-        removed.setNext(null);
-        size--;
-        return removed.getData();
+            throw new NoSuchElementException();
+        return last.item;
     }
 
+    @Override
+    public E getFirst() {
+        throw new UnsupportedOperationException();
+    }
+
+    @Override
     public boolean isEmpty() {
-        return head == null;
+        return last == null;
     }
 
+    @Override
     public int size() {
         return size;
     }
 
-    public void print() {
-        Node<T> current = head;
-        System.out.print("[ ");
-        while (current != null) {
-            System.out.print(current);
-            if (current.getNext() != null)
-                System.out.print(", ");
-            current = current.getNext();
-        }
-        System.out.println(" ]");
+    @Override
+    public E unlinkLast() {
+        if (isEmpty())
+            throw new NoSuchElementException();
+        final Node<E> l = last;
+        final E el = l.item;
+        last = last.prev;
+        l.prev = null;
+        l.item = null;
+        size--;
+        return el;
     }
 
+    @Override
+    public E unlinkFirst() {
+        throw new UnsupportedOperationException();
+    }
+
+    @Override
+    public void print() {
+        Node<E> current = last;
+        while (current != null) {
+            System.out.print(current.item);
+            if (current.prev != null)
+                System.out.print(", ");
+            current = current.prev;
+        }
+        System.out.println();
+    }
 }

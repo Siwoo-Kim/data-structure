@@ -3,7 +3,6 @@ package com.siwoo.datastructure.practice;
 import com.siwoo.datastructure.sort.Sorter;
 
 public class BubbleSorter<E extends Comparable> implements Sorter<E> {
-
     @Override
     public void sort(E[] array) {
         for (int unsorted = array.length - 1; unsorted > 0; unsorted--) {

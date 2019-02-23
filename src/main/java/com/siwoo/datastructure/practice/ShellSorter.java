@@ -9,7 +9,7 @@ public class ShellSorter<E extends Comparable> implements Sorter<E> {
             for (int unsorted = gap; unsorted < array.length; unsorted++) {
                 E el = array[unsorted];
                 int pos = unsorted;
-                for ( ;pos >= gap && el.compareTo(array[pos - gap]) < 0; pos -= gap) {
+                for ( ;pos >= gap && array[pos - gap].compareTo(el) > 0; pos -= gap) {
                     array[pos] = array[pos - gap];
                 }
                 array[pos] = el;
