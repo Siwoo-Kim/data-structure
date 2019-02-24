@@ -1,7 +1,8 @@
 package com.siwoo.datastructure;
 
-import com.siwoo.datastructure.tree.BinarySearchTree;
+import com.siwoo.datastructure.practice.BinarySearchTree;
 import com.siwoo.datastructure.tree.Tree;
+import org.junit.Assert;
 
 public class TreeMain {
 
@@ -16,5 +17,27 @@ public class TreeMain {
         tree.insert(26);
         tree.insert(22);
         tree.insert(32);
+        tree.insert(17);
+//
+        tree.print();
+        System.out.println();
+        Assert.assertEquals(tree.get(27), new Integer(27));
+        Assert.assertEquals(tree.get(17), new Integer(17));
+        Assert.assertNull(tree.get(887));
+
+//        System.out.println(((BinarySearchTree<Integer>) tree).min());
+//        System.out.println(((BinarySearchTree<Integer>) tree).max());
+        tree.delete(15);
+        tree.print();
+        System.out.println();
+        tree.delete(27);
+        tree.print();
+        System.out.println();
+        tree.delete(25);
+        tree.print();
+        System.out.println();
+        tree.delete(8888);
+        tree.print();
+        System.out.println();
     }
 }

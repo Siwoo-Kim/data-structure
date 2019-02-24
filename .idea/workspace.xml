@@ -2,25 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="245c2d3f-4a9e-4868-9ed4-5094a36c5f4c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/TreeMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/list/DoublyLinkMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/list/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/list/SingleLinkMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/practice/CountSorter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/sort/RadixSorter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/tree/BinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/practice/BinarySearchTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/siwoo/datastructure/SinglyListMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/siwoo/datastructure/SinglyListMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/siwoo/datastructure/SorterMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/siwoo/datastructure/SorterMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/siwoo/datastructure/list/DoublyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/siwoo/datastructure/list/DoublyLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/siwoo/datastructure/list/SinglyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/siwoo/datastructure/list/SinglyLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/siwoo/datastructure/practice/SinglyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/siwoo/datastructure/practice/SinglyLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/siwoo/datastructure/sort/CountSorter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/siwoo/datastructure/sort/CountSorter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/SinglyListMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/SinglyListMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/SorterMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/SorterMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/list/DoublyLinkedList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/list/SinglyLinkedList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/practice/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/practice/SinglyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/siwoo/datastructure/TreeMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/siwoo/datastructure/TreeMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/siwoo/datastructure/tree/BinarySearchTree$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/siwoo/datastructure/tree/BinarySearchTree$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/siwoo/datastructure/tree/BinarySearchTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/siwoo/datastructure/tree/BinarySearchTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/siwoo/datastructure/tree/Tree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/siwoo/datastructure/tree/Tree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/TreeMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/TreeMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/tree/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/tree/BinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/tree/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/tree/Tree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/정리2" beforeDir="false" afterPath="$PROJECT_DIR$/정리2" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -45,44 +35,46 @@
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.14" value="3" />
           <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.24" value="2" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.opened" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="3" />
           <entry key="gradle" value="1" />
-          <entry key="java" value="140" />
-          <entry key="정리2" value="5" />
+          <entry key="java" value="157" />
+          <entry key="정리2" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="3" />
           <entry key="Groovy" value="1" />
-          <entry key="JAVA" value="140" />
-          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="JAVA" value="157" />
+          <entry key="PLAIN_TEXT" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="2" />
           <entry key="gradle" value="11" />
-          <entry key="java" value="25551" />
+          <entry key="java" value="36256" />
           <entry key="txt" value="57" />
-          <entry key="정리2" value="12302" />
+          <entry key="정리2" value="13325" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="11" />
-          <entry key="JAVA" value="25551" />
-          <entry key="PLAIN_TEXT" value="12361" />
+          <entry key="JAVA" value="36256" />
+          <entry key="PLAIN_TEXT" value="13384" />
         </counts>
       </usages-collector>
     </session>
@@ -92,32 +84,31 @@
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/list/SinglyLinkedList.java">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/TreeMain.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1024">
-                  <caret line="72" column="25" selection-start-line="72" selection-start-column="25" selection-end-line="72" selection-end-column="25" />
+                <state relative-caret-position="384">
+                  <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
                   <folding>
-                    <element signature="e#613#614#0" expanded="true" />
-                    <element signature="e#670#671#0" expanded="true" />
+                    <element signature="imports" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/LinkedList.java">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/practice/BinarySearchTree.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="335">
-                  <caret line="127" column="13" selection-start-line="127" selection-start-column="13" selection-end-line="127" selection-end-column="13" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/tree/Tree.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="112">
-                  <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+                <state relative-caret-position="707">
+                  <caret line="100" column="50" selection-start-line="100" selection-start-column="50" selection-end-line="100" selection-end-column="50" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#1610#1611#0" expanded="true" />
+                    <element signature="e#1673#1674#0" expanded="true" />
+                    <element signature="e#1695#1696#0" expanded="true" />
+                    <element signature="e#1760#1761#0" expanded="true" />
+                    <element signature="e#1791#1792#0" expanded="true" />
+                    <element signature="e#1813#1814#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -125,24 +116,21 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/tree/BinarySearchTree.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="640">
-                  <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+                <state relative-caret-position="1929">
+                  <caret line="128" column="86" selection-start-line="128" selection-start-column="86" selection-end-line="128" selection-end-column="86" />
                   <folding>
-                    <element signature="e#337#338#0" expanded="true" />
-                    <element signature="e#373#374#0" expanded="true" />
+                    <element signature="e#2362#2363#0" expanded="true" />
+                    <element signature="e#2393#2394#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/TreeMain.java">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/정리2">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="272">
-                  <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
+                <state relative-caret-position="445">
+                  <caret line="250" column="73" lean-forward="true" selection-start-line="250" selection-start-column="73" selection-end-line="250" selection-end-column="73" />
                 </state>
               </provider>
             </entry>
@@ -151,53 +139,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file pinned="false" current-in-tab="false">
-            <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/TreeSet.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="312">
-                  <caret line="109" column="7" lean-forward="true" selection-start-line="109" selection-start-column="7" selection-end-line="109" selection-end-column="7" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/java/util/TreeMap.class">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="332">
-                  <caret line="152" lean-forward="true" selection-start-line="152" selection-end-line="152" />
-                  <folding>
-                    <element signature="e#0#84279#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file pinned="false" current-in-tab="true">
             <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/TreeMap.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-66">
-                  <caret line="534" column="16" selection-start-line="534" selection-start-column="13" selection-end-line="534" selection-end-column="16" />
-                  <folding>
-                    <element signature="e#0#108850#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/NavigableMap.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-712">
-                  <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/SortedMap.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-1777">
-                  <caret line="112" column="17" selection-start-line="112" selection-start-column="17" selection-end-line="112" selection-end-column="17" />
+                <state relative-caret-position="2278">
+                  <caret line="2321" column="13" selection-start-line="2321" selection-start-column="13" selection-end-line="2321" selection-end-column="13" />
                 </state>
               </provider>
             </entry>
@@ -224,6 +170,7 @@
       <find>get</find>
       <find>add</find>
       <find>insert</find>
+      <find>visit</find>
       <find>put</find>
     </findStrings>
   </component>
@@ -604,8 +551,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/practice/ArrayQueue.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/queue/ArrayQueue.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/QueueMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/sort/Sort.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/practice/BubbleSort.java" />
@@ -651,10 +596,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/list/SinglyLinkedList.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/list/DoublyLinkedList.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/list/DoublyLinkMain.java" />
-        <option value="$PROJECT_DIR$/정리2" />
         <option value="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/tree/Tree.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/tree/BinarySearchTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/Main.java" />
+        <option value="$PROJECT_DIR$/정리2" />
         <option value="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/TreeMain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/tree/BinarySearchTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/practice/BinarySearchTree.java" />
       </list>
     </option>
   </component>
@@ -671,8 +618,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="842" />
-    <option name="y" value="111" />
+    <option name="x" value="47" />
+    <option name="y" value="27" />
     <option name="width" value="966" />
     <option name="height" value="1024" />
   </component>
@@ -682,8 +629,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -745,7 +690,24 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="siwoo" type="462c0819:PsiDirectoryNode" />
               <item name="datastructure" type="462c0819:PsiDirectoryNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data-structure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data-structure" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="siwoo" type="462c0819:PsiDirectoryNode" />
+              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
               <item name="tree" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data-structure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data-structure" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="data-structure" type="b2602c69:ProjectViewProjectNode" />
@@ -755,7 +717,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -763,7 +727,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550938019965" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551023362090" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../design-pattern" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -806,12 +770,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.siwoo.datastructure.search.Main" />
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.siwoo.Main" />
       <module name="data-structure_main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.siwoo.datastructure.search.*" />
+          <option name="PATTERN" value="com.siwoo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -860,18 +824,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.SorterMain" />
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.SingleLinkMain" />
       <item itemvalue="Application.DoublyLinkMain" />
       <item itemvalue="Application.TreeMain" />
+      <item itemvalue="Application.Main (1)" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.TreeMain" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.DoublyLinkMain" />
         <item itemvalue="Application.SingleLinkMain" />
         <item itemvalue="Application.SorterMain" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -897,7 +861,9 @@
       <workItem from="1550434730813" duration="5460000" />
       <workItem from="1550502872207" duration="45000" />
       <workItem from="1550511432667" duration="8062000" />
-      <workItem from="1550932863606" duration="4986000" />
+      <workItem from="1550932863606" duration="20324000" />
+      <workItem from="1550959247367" duration="2255000" />
+      <workItem from="1551017284388" duration="5987000" />
     </task>
     <task id="LOCAL-00001" summary="AbstractDataType: List, Stack">
       <created>1549752621848</created>
@@ -910,13 +876,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69865000" />
+    <option name="totallyTimeSpent" value="93445000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1928" height="1088" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20042644" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2585288" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -928,15 +894,15 @@
       <window_info anchor="bottom" id="Build" order="0" weight="0.32952183" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32882413" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.35275754" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.40062433" />
+      <window_info anchor="bottom" x="-1550" y="139" width="1500" height="339" id="Run" order="3" type="WINDOWED" visible="true" weight="0.35239086" />
+      <window_info anchor="bottom" x="210" y="347" width="1500" height="385" id="Debug" order="4" weight="0.3939709" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.24453694" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.24428274" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32882413" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32848233" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="14" show_stripe_button="false" />
@@ -1037,27 +1003,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/sort/SelectionSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/SortMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="51" lean-forward="true" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/sort/BubbleSorter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/practice/BubbleSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
@@ -1084,13 +1029,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/Comparable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2016">
-          <caret line="135" column="15" selection-start-line="135" selection-start-column="15" selection-end-line="135" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -1252,29 +1190,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="127" column="13" selection-start-line="127" selection-start-column="13" selection-end-line="127" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/정리2">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="214" column="34" selection-start-line="214" selection-start-column="34" selection-end-line="214" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/practice/SinglyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="589">
           <caret line="69" column="50" selection-start-line="69" selection-start-column="50" selection-end-line="69" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#637#638#0" expanded="true" />
-            <element signature="e#694#695#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1327,21 +1246,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/list/SinglyLinkedList.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/java/util/TreeMap.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1024">
-          <caret line="72" column="25" selection-start-line="72" selection-start-column="25" selection-end-line="72" selection-end-column="25" />
-          <folding>
-            <element signature="e#613#614#0" expanded="true" />
-            <element signature="e#670#671#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/TreeSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="109" column="7" lean-forward="true" selection-start-line="109" selection-start-column="7" selection-end-line="109" selection-end-column="7" />
+        <state relative-caret-position="332">
+          <caret line="152" lean-forward="true" selection-start-line="152" selection-end-line="152" />
         </state>
       </provider>
     </entry>
@@ -1354,55 +1262,117 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/NavigableMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-712">
+        <state relative-caret-position="-1216">
           <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/java/util/TreeMap.class">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/TreeSet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="152" lean-forward="true" selection-start-line="152" selection-end-line="152" />
+        <state relative-caret-position="268">
+          <caret line="102" column="7" lean-forward="true" selection-start-line="102" selection-start-column="7" selection-end-line="102" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/DoublyLinkedListMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
-            <element signature="e#0#84279#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/Comparable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="95" column="17" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/tree/Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/list/SinglyLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1024">
+          <caret line="72" column="25" selection-start-line="72" selection-start-column="25" selection-end-line="72" selection-end-column="25" />
+          <folding>
+            <element signature="e#613#614#0" expanded="true" />
+            <element signature="e#670#671#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="127" column="13" selection-start-line="127" selection-start-column="13" selection-end-line="127" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/정리2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="250" column="73" lean-forward="true" selection-start-line="250" selection-start-column="73" selection-end-line="250" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/tree/BinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1929">
+          <caret line="128" column="86" selection-start-line="128" selection-start-column="86" selection-end-line="128" selection-end-column="86" />
+          <folding>
+            <element signature="e#2362#2363#0" expanded="true" />
+            <element signature="e#2393#2394#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/TreeMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-66">
-          <caret line="534" column="16" selection-start-line="534" selection-start-column="13" selection-end-line="534" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#108850#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/tree/Tree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/tree/BinarySearchTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-          <folding>
-            <element signature="e#337#338#0" expanded="true" />
-            <element signature="e#373#374#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="2278">
+          <caret line="2321" column="13" selection-start-line="2321" selection-start-column="13" selection-end-line="2321" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/TreeMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+        <state relative-caret-position="384">
+          <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/datastructure/practice/BinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="707">
+          <caret line="100" column="50" selection-start-line="100" selection-start-column="50" selection-end-line="100" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1610#1611#0" expanded="true" />
+            <element signature="e#1673#1674#0" expanded="true" />
+            <element signature="e#1695#1696#0" expanded="true" />
+            <element signature="e#1760#1761#0" expanded="true" />
+            <element signature="e#1791#1792#0" expanded="true" />
+            <element signature="e#1813#1814#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,4 +1,6 @@
-package com.siwoo.datastructure.tree;
+package com.siwoo.datastructure.practice;
+
+import com.siwoo.datastructure.tree.Tree;
 
 import java.util.Objects;
 
@@ -12,38 +14,37 @@ public class BinarySearchTree<E extends Comparable> implements Tree<E> {
         private Node right;
         private Node parent;
 
-        Node(E el, Node p) {
+        public Node(E el, Node parent) {
             this.el = el;
-            this.parent = p;
+            this.parent = parent;
         }
 
-        private void insert(E el) {
+        void insert(E el) {
             if (Objects.equals(this.el, el))
                 return;
-            int compared = el.compareTo(this.el);
-            //ref: value is less then the node go to left else to right.
-            if (compared < 0) {
+            int c = el.compareTo(this.el);
+            if (c < 0) {
                 if (left == null)
                     left = new Node(el, this);
                 else
                     left.insert(el);
             } else {
                 if (right == null)
-                    right = new Node(el, this);
+                    right = new Node(el,  this);
                 else
                     right.insert(el);
             }
         }
 
-        void traverseInOrder() {
+        void traverInOrder() {
             if (left != null)
-                left.traverseInOrder();
+                left.traverInOrder();
             System.out.print(toString() + ", ");
             if (right != null)
-                right.traverseInOrder();
+                right.traverInOrder();
         }
 
-        Node<E> get(E el) {
+        Node get(E el) {
             if (Objects.equals(this.el, el))
                 return this;
             int c = el.compareTo(this.el);
@@ -58,17 +59,11 @@ public class BinarySearchTree<E extends Comparable> implements Tree<E> {
         }
 
         Node min() {
-            if (left == null)
-                return this;
-            else
-                return left.min();
+            return left == null ? this : left.min();
         }
 
         Node max() {
-            if (right == null)
-                return this;
-            else
-                return right.max();
+            return right == null ? this : right.max();
         }
 
         @Override
@@ -79,61 +74,35 @@ public class BinarySearchTree<E extends Comparable> implements Tree<E> {
         }
     }
 
-    public E min() {
-        if (root == null)
-            return null;
-        else
-            return (E) root.min().el;
-    }
-
-    public E max() {
-        if (root == null)
-            return null;
-        else
-            return (E) root.max().el;
-    }
-
     @Override
     public void delete(E el) {
         root = delete(el, root);
     }
 
-    /**
-     * Returns the replacement node. If the node is not the node to delete, return the original node.
-     * @param el
-     * @param subRoot
-     * @return
-     */
     private Node delete(E el, Node subRoot) {
         if (subRoot == null)
-            return null;
+            return subRoot;
         int c = el.compareTo(subRoot.el);
         if (c < 0) {
             subRoot.left = delete(el, subRoot.left);
         } else if (c > 0) {
             subRoot.right = delete(el, subRoot.right);
         } else {
-            //ref: found the node to delete.
+            //ref: found
             final Node n = subRoot;
-            //ref: Handle the case that the node has 0 or 1 child.
             if (n.left == null)
                 return n.right;
             else if (n.right == null)
                 return n.left;
             else {
-                //ref: node to delete has 2 children.
-                //ref: find the replacement node
-                final Node edge =  n.left.max();
-                //ref: replace the value in the subroot in the largest value from the left subtree.
+                //ref: both left and right child exits.
+                final Node edge = n.right.min();
                 subRoot.el = edge.el;
-                //ref: delete the node that has the largest value in the left subtree.
-                subRoot.left = delete((E) subRoot.el, subRoot.left);
+                subRoot.right = delete((E) subRoot.el, subRoot.right);
             }
         }
-        //ref: the node is not the node to delete.
         return subRoot;
     }
-
 
     @Override
     public E get(E el) {
@@ -148,15 +117,14 @@ public class BinarySearchTree<E extends Comparable> implements Tree<E> {
     @Override
     public void print() {
         if (root == null)
-            System.out.print("EMPTY");
+            System.out.println("EMPTY");
         else
-            root.traverseInOrder();
+            root.traverInOrder();
     }
 
     @Override
     public void insert(E el) {
         if (root == null)
-            //ref: root does not have parent.
             root = new Node(el, null);
         else
             root.insert(el);

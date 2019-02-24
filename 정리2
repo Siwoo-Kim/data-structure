@@ -233,6 +233,39 @@ Tree
             To get maximum value in the tree just by following the right edges all the way down to the right.
             * Root 의 왼쪽의 node 들은 모두 root 보다 작고(left subtrees), Root 의 오른쪽의 node 들은 모두 root 보다 크다(right substrees).
 
+    Traversal
+        Level Traversal - visit nodes on each level(every nodes at the same depth).
+        Pre-order - visit the root of every subtree first. (root 그 다음 subtree 의 root and so on...)
+        Post-order - visit the root of every subtree last. (가장 밑 단계의 subtree 의 left 자식, right 자식 이후 parent and so on)
+        In-order - visit left child, then root, then right child. (가장 left child 시작:작은값 이후 부모:중간값 이후 그리고 right child:큰값 = 정렬순으로 traversal)
+
+    Delete
+        Three case
+            Node is a leaf.
+                simply delete parent's left child or right child.
+            Node has one child.
+                Replace the node you're deleting with the child. (Node's child also smaller or larger than Grand Parent)
+            Node has two children.
+        Delete node with two children.
+            Need to figure out what the replacement node will be.
+            If taking it from the left subtree, have to take the largest value in the left subtree.
+            If taking it from the right subtree, have to take the smallest value in the right subtree.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
