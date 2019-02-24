@@ -1,9 +1,11 @@
 package com.siwoo.datastructure.tree;
 
-import java.util.TreeSet;
-
-
 public interface Tree<E extends Comparable> {
+    void delete(E el);
+
+    E get(E el);
+
+    void print();
 
     void insert(E el);
 }
