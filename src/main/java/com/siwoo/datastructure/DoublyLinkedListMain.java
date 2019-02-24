@@ -1,5 +1,7 @@
 package com.siwoo.datastructure;
 
+import com.siwoo.datastructure.list.AdvancedLinkedList;
+import com.siwoo.datastructure.list.LinkedList;
 import com.siwoo.datastructure.practice.DoublyLinkedList;
 
 import static org.junit.Assert.*;
@@ -14,39 +16,41 @@ public class DoublyLinkedListMain {
         Employee mikeWilson = new Employee(4, "Mike", "Wilson");
         Employee billEnd = new Employee(5, "Bill", "End");
 
-        DoublyLinkedList<Employee> list = new DoublyLinkedList<>();
-        list.addFirst(janeJones);
-        list.addFirst(johnDoe);
-        list.addFirst(marrySmith);
-        list.addFirst(mikeWilson);
+        LinkedList<Employee> list = new AdvancedLinkedList<>();
+        assertTrue(list.isEmpty());
+        list.linkLast(janeJones);
+        list.linkLast(johnDoe);
+        list.linkLast(marrySmith);
+        list.linkLast(mikeWilson);
         assertEquals(list.size(), 4);
         list.print();
 
-        list.addLast(billEnd);
+        list.linkFirst(billEnd);
         assertEquals(list.size(), 5);
         list.print();
-        Employee removed = list.removeFirst();
+        Employee removed = list.unlinkLast();
         assertEquals(removed.getId(), mikeWilson.getId());
         assertEquals(list.size(), 4);
+        assertEquals(marrySmith.getId(), list.getLast().getId());
         list.print();
-        removed = list.removeLast();
+        removed = list.unlinkFirst();
         assertEquals(removed.getId(), billEnd.getId());
         assertEquals(list.size(), 3);
         list.print();
-        removed = list.removeLast();
+        removed = list.unlinkFirst();
         assertEquals(removed.getId(), janeJones.getId());
         assertEquals(list.size(), 2);
         list.print();
-        removed = list.removeLast();
+        removed = list.unlinkFirst();
         assertEquals(removed.getId(), johnDoe.getId());
         assertEquals(list.size(), 1);
         list.print();
-        removed = list.removeLast();
+        removed = list.unlinkLast();
         assertEquals(removed.getId(), marrySmith.getId());
         assertTrue(list.isEmpty());
         list.print();
-        list.addFirst(janeJones);
-        list.addLast(marrySmith);
+        list.linkFirst(janeJones);
+        list.linkLast(marrySmith);
         assertEquals(list.size(), 2);
     }
 }

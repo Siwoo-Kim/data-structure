@@ -7,5 +7,7 @@ public interface Tree<E extends Comparable> {
 
     void print();
 
+    int size();
+
     void insert(E el);
 }

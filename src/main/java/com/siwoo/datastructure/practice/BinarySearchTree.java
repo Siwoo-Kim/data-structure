@@ -123,6 +123,11 @@ public class BinarySearchTree<E extends Comparable> implements Tree<E> {
     }
 
     @Override
+    public int size() {
+        return 0;
+    }
+
+    @Override
     public void insert(E el) {
         if (root == null)
             root = new Node(el, null);
