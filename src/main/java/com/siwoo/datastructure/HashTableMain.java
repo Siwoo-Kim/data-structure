@@ -1,7 +1,11 @@
 package com.siwoo.datastructure;
 
 import com.siwoo.datastructure.hashtable.HashTable;
-import com.siwoo.datastructure.hashtable.SimpleHashTable;
+import com.siwoo.datastructure.practice.ChainedHashTable;
+import com.siwoo.datastructure.practice.LinearProbingHashTable;
+
+import static org.hamcrest.CoreMatchers.is;
+import static org.junit.Assert.assertThat;
 
 public class HashTableMain {
 
@@ -13,7 +17,7 @@ public class HashTableMain {
         Employee billEnd = new Employee(5, "Bill", "End");
         Employee longName = new Employee(5, "Long", "ninthnine");
 
-        HashTable<String, Employee> table = new SimpleHashTable<>();
+        HashTable<String, Employee> table = new ChainedHashTable<>();
         table.put(janeJones.getLastName(), janeJones);
         table.put(johnDoe.getLastName(), johnDoe);
         table.put(mikeWilson.getLastName(), mikeWilson);
@@ -23,20 +27,21 @@ public class HashTableMain {
         table.put(billEnd.getLastName(), billEnd);
         table.put(longName.getLastName(), longName);
         table.put(longName.getLastName(), longName);
+        table.print();
+        assertThat(table.size(), is(6));
 
         table.print();
-        System.out.println(((SimpleHashTable<String, Employee>) table).getLoadFactor());
+        //System.out.println(((LinearProbingHashTable<String, Employee>) table).getLoadFactor());
 
-        System.out.println(table.get(mikeWilson.getLastName()));
-        System.out.println(table.get(marrySmith.getLastName()));
-        System.out.println(table.get(billEnd.getLastName()));
-
+        assertThat(table.get(mikeWilson.getLastName()), is(mikeWilson));
+        assertThat(table.get(marrySmith.getLastName()), is(marrySmith));
+        assertThat(table.get(longName.getLastName()), is(longName));
         System.out.println("=============================");
-        table.remove(mikeWilson.getLastName());
-        table.remove(janeJones.getLastName());
+        assertThat(table.remove(mikeWilson.getLastName()), is(mikeWilson));
+        assertThat(table.remove(janeJones.getLastName()), is(janeJones));
+        assertThat(table.size(), is(4));
         table.print();
-
-        System.out.println(table.get(marrySmith.getLastName()));
+        assertThat(table.get(marrySmith.getLastName()), is(marrySmith));
 
     }
 }

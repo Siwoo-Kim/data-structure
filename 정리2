@@ -202,10 +202,15 @@ HashTable
     HashTable 의 Collision
         - Collision occurs when more than one value has the same hashed value.
 
-    Handling Collision - Open Addressing (Linear Probing)
-        - When Collision occurs, increment the hash by one until finding another available position.
-        - Each time you increment the index(hash), doing it in a linear fashion.
-        - Every increment of the index is called a probe.
+    Handling Collision
+        Open Addressing (Linear Probing)
+            - When Collision occurs, increment the hash by one until finding another available position.
+            - Each time you increment the index(hash), doing it in a linear fashion.
+            - Every increment of the index is called a probe.
+        Chaining
+            - Instead of storing the value directly into the array, each array position contains a linked list.
+            - If you add the hash that collides with the another hash for key, there will be a linked list and simply add new value. (Linked list doesn't have maximum size)
+            - Better to have short linked list at every position in baked array. (to do this, have good load factory and hash function)
 
 
 
