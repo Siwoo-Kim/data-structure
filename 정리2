@@ -191,6 +191,30 @@ Queue
     * add(enqueue), remove(dequeue), peek.
     * If backing up with array, add will be O(n).
 
+HashTable
+    * Abstract Data Type.
+    * Provide access to data using keys.
+    * Consists of key/value pairs.
+    * Optimized for retrieval (when you know the key = array)
+    * Maps keys of any data type to an integer (using hash function).
+    * Hash function maps keys to int (Object.hashCode())
+
+    HashTable 의 Collision
+        - Collision occurs when more than one value has the same hashed value.
+
+    Handling Collision - Open Addressing (Linear Probing)
+        - When Collision occurs, increment the hash by one until finding another available position.
+        - Each time you increment the index(hash), doing it in a linear fashion.
+        - Every increment of the index is called a probe.
+
+
+
+    HashTable 의 Load Factory.
+        - Load factor = size (number of items) / capacity
+        - Load factory is used to decide when to resize the array backing the hash table.
+        - Don't want load factor too low (lots of empty space) or too high (increase the likelihood of collision)
+
+
 Tree
     * Hierarchical data structure.
     * Every item in the tree is a node.
@@ -211,7 +235,7 @@ Tree
             * The depth of node is the number of edges from the node to the root.
         Height (node -> the farthest child 시 edge 의 개수)
             * The height of node is the number of edges on the longest path from the node to a leaf.
-        Level
+        Level (같은 depth 선상의 있는 Node)
             * A level of a tree contains all the nodes that are at the same depth.
 
     Binary Tree
@@ -221,6 +245,7 @@ Tree
 
         Complete Binary Tree.
             If every level except the last level, is completely filled (One children is acceptable).
+            * Level 로 구별한다. leaf 가 아님을 주의.
         Full Binary Tree.
             Binary Full tree is complete tree as well, but every node other than the leaves has to have two children.
 
