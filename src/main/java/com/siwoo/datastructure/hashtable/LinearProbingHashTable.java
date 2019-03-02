@@ -3,7 +3,7 @@ package com.siwoo.datastructure.hashtable;
 import java.util.Map;
 import java.util.Objects;
 
-public class SimpleHashTable<K, V> implements HashTable<K, V> {
+public class LinearProbingHashTable<K, V> implements HashTable<K, V> {
 
     public static final int DEFAULT_CAPACITY = 10;
     private Entry[] table;
@@ -41,16 +41,15 @@ public class SimpleHashTable<K, V> implements HashTable<K, V> {
         }
     }
 
-    public SimpleHashTable() {
+    public LinearProbingHashTable() {
         this.table = new Node[DEFAULT_CAPACITY];
     }
 
-    @Override
-    public void put(K key, V value) {
+
+    private void put(K key, V value, boolean rehasing) {
         int h = hash(key);
         if (table[h] != null) {
             if (table[h].getKey().equals(key)) {
-                //duplicated element
                 table[h] = new Node(key, value);
                 return;
             }
@@ -66,17 +65,23 @@ public class SimpleHashTable<K, V> implements HashTable<K, V> {
             System.out.println("Table is full.");
         else {
             table[h] = new Node(key, value);
-            size++;
+            if (!rehasing)
+                size++;
         }
     }
 
     @Override
+    public void put(K key, V value) {
+        put(key, value, false);
+    }
+
+    @Override
     public V get(K key) {
-        int index = findIndex(key);
+        int index = getIndex(key);
         return index == -1 ? null : (V) table[index].getValue();
     }
 
-    private int findIndex(K key) {
+    private int getIndex(K key) {
         int h = hash(key);
         if (table[h] != null && table[h].getKey().equals(key))
             return h;
@@ -85,8 +90,9 @@ public class SimpleHashTable<K, V> implements HashTable<K, V> {
             h = 0;
         else
             h++;
-        while (table[h] != null && !table[h].getKey().equals(key) && stop != h)
+        while (stop != h && table[h] != null && !table[h].getKey().equals(key)) {
             h = (h + 1) % table.length;
+        }
         if (table[h] != null && table[h].getKey().equals(key))
             return h;
         else
@@ -95,19 +101,20 @@ public class SimpleHashTable<K, V> implements HashTable<K, V> {
 
     @Override
     public V remove(K key) {
-        int index = findIndex(key);
+        int index = getIndex(key);
         if (index == -1)
             return null;
-        Entry<K, V> e = table[index];
+        Entry e = table[index];
         table[index] = null;
-
+        size--;
         Entry[] old = table;
-        table = new Entry[table.length];
-        for (int i = 0; i < table.length; i++) {
-            if (old[i] != null)
-                put((K) old[i].getKey(), (V) old[i].getValue());
+        table = new Entry[old.length];
+        for (int i = 0; i < old.length; i++) {
+            if (old[i] != null) {
+                put((K) old[i].getKey(), (V) old[i].getValue(), true);
+            }
         }
-        return e.getValue();
+        return (V) e.getValue();
     }
 
     @Override
@@ -118,13 +125,13 @@ public class SimpleHashTable<K, V> implements HashTable<K, V> {
         }
     }
 
-    private int hash(K key) {
-        return key.toString().length() % table.length;
-    }
-
     @Override
     public int size() {
         return size;
+    }
+
+    private int hash(K key) {
+        return key.toString().length() % table.length;
     }
 
     public float getLoadFactor() {
