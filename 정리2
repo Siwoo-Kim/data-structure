@@ -191,6 +191,30 @@ Queue
     * add(enqueue), remove(dequeue), peek.
     * If backing up with array, add will be O(n).
 
+HashTable
+    * Abstract Data Type.
+    * Provide access to data using keys.
+    * Consists of key/value pairs.
+    * Optimized for retrieval (when you know the key = array)
+    * Maps keys of any data type to an integer (using hash function).
+    * Hash function maps keys to int (Object.hashCode())
+
+    HashTable 의 Collision
+        - Collision occurs when more than one value has the same hashed value.
+
+    Handling Collision - Open Addressing (Linear Probing)
+        - When Collision occurs, increment the hash by one until finding another available position.
+        - Each time you increment the index(hash), doing it in a linear fashion.
+        - Every increment of the index is called a probe.
+
+
+
+    HashTable 의 Load Factory.
+        - Load factor = size (number of items) / capacity
+        - Load factory is used to decide when to resize the array backing the hash table.
+        - Don't want load factor too low (lots of empty space) or too high (increase the likelihood of collision)
+
+
 Tree
     * Hierarchical data structure.
     * Every item in the tree is a node.
