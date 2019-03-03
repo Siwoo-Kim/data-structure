@@ -111,6 +111,25 @@ Merge Sort
     - Sort based on each individual digit or letter position (start at the rightmost position:least weight)
     - Must use a stable sort algorithm at each stage.
 
+*Bucket Sort
+    * Not in-place.
+    * Stability will depend on sort algorithm used to sort the bucket.
+    * To achieve O(n), must have only one item per bucket.
+    * Insertion sort is often used to sort the buckets.
+
+    - O(n)
+    - Use hashing.
+    - Makes assumptions about the data.
+    - Performs best when hashed values of items being sorted are evenly distributed.
+    Operation
+        * The values in bucket X must be greater than the values in bucket X - 1 and and less than the values in bucket X + 1
+            X 버켓의 값들은은 X - 1 버켓의 모든 값보다 커야 되고 X + 1 버켓의 모든 값보단 작아야 한다.
+
+        - Distribute the items into buckets based on their hash. (scattering phase) Count Sort 와 유사한 방법.
+        - Sort the items in each bucket.
+        - Merge the buckets (gathering phase) Count Sort 와 유사한 방법.
+
+
 LinkedList
     SinglyLinkedList
         * Linked List differs from arrays in that, as long as you're adding, removing front of the list (Head Node) are constant time complexity.
@@ -221,27 +240,34 @@ HashTable
 
 
 Tree
+    * Abstract Data Type.
     * Hierarchical data structure.
     * Every item in the tree is a node.
-    * The node at the top of the tree is the root.
-    * Every non-node has only one parent.
-    * A leaf node has no children.
-    * Nodes can have children.
+    * Nodes can have children (except leaf) and one parent (except root).
+    * Cannot have cyclic paths. (the path that crosses a node more than once)
+    * Root Node, Leaf Node
+        - The node at the top of the tree is the root.
+        - The root node does not has parent.
+    * Subtree.
+        - Subtree can start with any given node.
+        - It consists with the node and its descendants.
 
     Tree 의 Path
         Edge (Path 을 구성하는 가장 작은 Unit)
             * Every arrows which points to other node is called edge.
         Path (Edge 의 모임)
             * A path is the sequence of nodes required to go from one node to another.
-        Root Path
-            * A root path is the path from a node to the root.
+            Root Path
+                * A root path is the path from a node to the root.
     Tree 의 깊이
         Depth (node -> root 시 edge 의 갯수)
+            Root Depth = 0.
             * The depth of node is the number of edges from the node to the root.
+            Level (같은 depth 선상의 있는 Node)
+                * A level of a tree contains all the nodes that are at the same depth.
         Height (node -> the farthest child 시 edge 의 개수)
+            Root Height = Tree Height.
             * The height of node is the number of edges on the longest path from the node to a leaf.
-        Level (같은 depth 선상의 있는 Node)
-            * A level of a tree contains all the nodes that are at the same depth.
 
     Binary Tree
         Every node has 0, 1 or 2 children.
@@ -249,7 +275,7 @@ Tree
         In practice, use binary search trees(BST)
 
         Complete Binary Tree.
-            If every level except the last level, is completely filled (One children is acceptable).
+            If every level except the last level, is completely filled (One children is acceptable), all nodes are as far left as possible.
             * Level 로 구별한다. leaf 가 아님을 주의.
         Full Binary Tree.
             Binary Full tree is complete tree as well, but every node other than the leaves has to have two children.
