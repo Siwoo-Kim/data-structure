@@ -1,16 +1,12 @@
 package com.siwoo.datastructure.hashtable;
 
 import java.util.LinkedList;
-import java.util.ListIterator;
+import java.util.Objects;
 
 public class ChainedHashTable<K, V> implements HashTable<K, V> {
 
-    private static final int DEFAULT_CAPACITY = 10;
-    private int size;
-    private LinkedList<Entry>[] table;
-
-    private class Node<K, V> implements Entry{
-        private K key;
+    static class Node<K, V> implements Entry<K, V> {
+        private final K key;
         private V value;
 
         public Node(K key, V value) {
@@ -19,41 +15,53 @@ public class ChainedHashTable<K, V> implements HashTable<K, V> {
         }
 
         @Override
-        public Object getKey() {
+        public K getKey() {
             return key;
         }
 
         @Override
-        public Object getValue() {
+        public V getValue() {
             return value;
+        }
+
+        @Override
+        public boolean equals(Object o) {
+            if (o == this)
+                return true;
+            if (o instanceof Entry) {
+                Node that = (Node) o;
+                return Objects.equals(this.key, that.key) &&
+                        Objects.equals(this.value, that.value);
+            }
+            return false;
         }
     }
 
+    private transient LinkedList<Entry>[] table;
+    private transient int size = 0;
+    public static final int DEFAULT_CAPACITY = 10;
+
     public ChainedHashTable() {
         table = new LinkedList[DEFAULT_CAPACITY];
-        for (int i = 0; i < table.length; i++) {
-            table[i] = new LinkedList();
-        }
+        for (int i = 0; i < table.length; i++)
+            table[i] = new LinkedList<>();
     }
 
     @Override
     public void put(K key, V value) {
         int hash = hash(key);
-        size++;
-        table[hash].add(new Node(key, value));
-    }
-
-    private int hash(K key) {
-        return key.toString().length() % table.length;
+        Entry<?, ?> newEntry = new Node<>(key, value);
+        if (!table[hash].contains(newEntry)) {
+            table[hash].add(new Node(key, value));
+            size++;
+        }
     }
 
     @Override
     public V get(K key) {
         int hash = hash(key);
-        ListIterator<Entry> itr = table[hash].listIterator();
         Entry e = null;
-        while (itr.hasNext()) {
-            Entry el = itr.next();
+        for (Entry el: table[hash]) {
             if (el.getKey().equals(key)) {
                 e = el;
                 break;
@@ -65,37 +73,33 @@ public class ChainedHashTable<K, V> implements HashTable<K, V> {
     @Override
     public V remove(K key) {
         int hash = hash(key);
-        ListIterator<Entry> itr = table[hash].listIterator();
         Entry e = null;
         int index = 0;
-        while (itr.hasNext()) {
-            Entry el = itr.next();
+        for (Entry el: table[hash]) {
             if (el.getKey().equals(key)) {
                 e = el;
+                table[hash].remove(index);
+                size--;
                 break;
             }
             index++;
         }
-        if (e == null || !e.getKey().equals(key))
-            return null;
-        else {
-            table[hash].remove(index);
-            size--;
-            return (V) e.getValue();
-        }
+        return e == null ? null : (V) e.getValue();
     }
 
     @Override
     public void print() {
         for (int i = 0; i < table.length; i++) {
-            if (!table[i].isEmpty())
-                for (Entry e: table[i])
-                    System.out.println(e.getValue());
+            table[i].stream().map(Entry::getValue).forEach(System.out::println);
         }
     }
 
     @Override
     public int size() {
         return size;
+    }
+
+    private int hash(K key) {
+        return key.toString().length() % table.length;
     }
 }

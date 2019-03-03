@@ -1,8 +1,8 @@
 package com.siwoo.datastructure;
 
+import com.siwoo.datastructure.hashtable.ChainedHashTable;
 import com.siwoo.datastructure.hashtable.HashTable;
-import com.siwoo.datastructure.practice.ChainedHashTable;
-import com.siwoo.datastructure.practice.LinearProbingHashTable;
+import com.siwoo.datastructure.hashtable.LinearProbingHashTable;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
@@ -17,7 +17,14 @@ public class HashTableMain {
         Employee billEnd = new Employee(5, "Bill", "End");
         Employee longName = new Employee(5, "Long", "ninthnine");
 
-        HashTable<String, Employee> table = new ChainedHashTable<>();
+        Employee siwooKim = new Employee(1, "Siwoo", "Kim");
+        Employee jinHyun = new Employee(2, "Jin", "Hyun");
+        Employee heeKyung = new Employee(4, "Hee", "Kyung");
+        Employee jiEunLee = new Employee(3, "JiEun", "Lee");
+        Employee sohyunPark = new Employee(5, "SoHyun", "Park");
+        Employee hyuJungYu = new Employee(5, "HyuJung", "Yu");
+
+        HashTable<String, Employee> table = new LinearProbingHashTable<>();
         table.put(janeJones.getLastName(), janeJones);
         table.put(johnDoe.getLastName(), johnDoe);
         table.put(mikeWilson.getLastName(), mikeWilson);
@@ -27,6 +34,7 @@ public class HashTableMain {
         table.put(billEnd.getLastName(), billEnd);
         table.put(longName.getLastName(), longName);
         table.put(longName.getLastName(), longName);
+
         table.print();
         assertThat(table.size(), is(6));
 
@@ -43,5 +51,25 @@ public class HashTableMain {
         table.print();
         assertThat(table.get(marrySmith.getLastName()), is(marrySmith));
 
+        System.out.println("=============================");
+        table.put(marrySmith.getLastName(), marrySmith);
+        table.put(mikeWilson.getLastName(), mikeWilson);
+        table.put(siwooKim.getLastName(), siwooKim);
+        table.put(jinHyun.getLastName(), jinHyun);
+        table.put(heeKyung.getLastName(), heeKyung);
+        table.put(jiEunLee.getLastName(), jiEunLee);
+        table.put(sohyunPark.getLastName(), sohyunPark);
+        table.put(hyuJungYu.getLastName(), hyuJungYu);
+
+        assertThat(table.get(mikeWilson.getLastName()), is(mikeWilson));
+        assertThat(table.get(marrySmith.getLastName()), is(marrySmith));
+        assertThat(table.get(siwooKim.getLastName()), is(siwooKim));
+        assertThat(table.get(jinHyun.getLastName()), is(jinHyun));
+        assertThat(table.get(heeKyung.getLastName()), is(heeKyung));
+        assertThat(table.get(jiEunLee.getLastName()), is(jiEunLee));
+        assertThat(table.get(sohyunPark.getLastName()), is(sohyunPark));
+        assertThat(table.get(hyuJungYu.getLastName()), is(hyuJungYu));
+        System.out.println(table.size());
+        table.print();
     }
 }
