@@ -307,21 +307,45 @@ Tree
             If taking it from the left subtree, have to take the largest value in the left subtree.
             If taking it from the right subtree, have to take the smallest value in the right subtree.
 
+Heap (PriorityQueue)
+    * A special type of binary Tree
+    * A complete binary tree.
+        - Every level except the last level, is completely filled, all nodes are as far left as possible.
+    * Must satisfy the heap property.
+        Max Heap
+            - Every parent is greater than or equal to its children.
+        Min Heap
+            - Every parent is less than or equal to its children.
+        - This makes the maximum or minimum value will always be at the root of the tree. (Different with BST)
+    * Children are added at each level from left to right.
+    * Usually implemented as arrays.
+    * Heapify Process.
+        - When new maximum or minimum value is added, the requirement of the heap property no longer meet.
+        - process of converting a binary tree into a heap. (this often has to be done after an insertion or deletion.)
+    * No required ordering between siblings.
 
+    Heap as Arrays.
+        * Heap backed by array.
+        * Root is at array[0]
+        * Traverse each level from left (array[1]) to right (array[2]).
+        Equation for getting children or parent
+            * For the equation works, tree must be complete tree.
+            - Left child = 2i + 1.  i = index of the current node
+            - Right child = 2i + 2. i = index of the current node
+            - parent = floor((i - 1) / 2) i = index of the current node
 
+        Insert Operation.
+            - Always add new items to the end of the array.
+            - Have to fix the heap (heapify)
+                - compare the new item againts its parent
+                - If the item is greater than its parent, swap it with its parent.
+                - rinse and repeat
 
-
-
-
-
-
-
-
-
-
-
-
-
+        Delete Operation.
+            - Must choose a replacement value.
+            - Will take the rightmost value, so that the tree remains complete.
+            Heapify.
+                - When replacement value is greater than parent, fix heap above. Otherwise, fix heap below.
 
 
 
